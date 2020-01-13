@@ -9,3 +9,26 @@ body{
 h2{
 	text-align: center;
 }
+
+nav{
+	max-width: 100%;
+}
+
+ul{
+	width: 80%;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+li{
+	float: left;
+	max-width: 30%;
+	overflow: auto;
+	
+}
+
+a {
+  display: inline-block;
+  background-color: none;
+
+}
