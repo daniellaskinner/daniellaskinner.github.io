@@ -30,13 +30,14 @@ ul, a{
 
 nav>div{
 	max-width: 900px;
-	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	margin-left: 60%;
 }
 
 nav ul{
 	overflow: auto;
-	background-color: white;
-	display: fixed;
+	background-color: transparent;
 }
 
 li{
@@ -45,6 +46,7 @@ li{
 	padding: 30px;
 	margin: 0 auto;
 	text-align: center;
+
 }
 
 a{
@@ -121,6 +123,10 @@ a:hover{
 	html {
 		font-size: 15px;
 	}
+	a{
+		font-size: 65%;
+	}
+}
 
 
 /*@media screen and (max-width: 768px) {
