@@ -4,31 +4,35 @@
 
 body{
 	font-family: Didot;
+	margin: 0;
+	font-size: 20px;
 }
 
 h2{
 	text-align: center;
 }
 
-nav{
-	max-width: 100%;
-}
-
-ul{
-	width: 80%;
-	overflow: auto;
+nav>div{
+	max-width: 900px;
 	margin: 0 auto;
 }
 
-li{
-	float: left;
-	max-width: 30%;
-	overflow: auto;
-	
+ul, a{
+	list-style: none;
 }
 
-a {
-  display: inline-block;
-  background-color: none;
+ul{
+	overflow: auto;
+	
 
+	/*position: -webkit-sticky;
+	position: sticky;*/
+}
+
+a{
+	float: left;
+	width: 33%;
+	padding: 30px;
+	text-align: center;
+	text-decoration: none;
 }
