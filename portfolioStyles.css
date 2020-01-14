@@ -39,17 +39,20 @@ li{
 a{
 	text-decoration: none;
 	color: rgb(53, 172, 181);
+	font-size: 95%;
 }
 
 a:hover{
 	color: rgb(64, 71, 71, 0.5);
 	text-decoration: underline;
+	font-size: 105%;
+	transition: font-size 0.5s;
 }
 
 .about{
 	text-align: center;
+	height: 20%;
 }
-
 
 .photo{
 	width: 10%;
@@ -57,11 +60,16 @@ a:hover{
 	border-radius: 50%;
 }
 
-.about>div{
+.skills{
 	background-color: rgb(194, 194, 194);
-	height: 300px;
+	height: 0%;
+	text-align: center;
 }
 
 .coding-icon{
 	width: 10%;
+}
+
+.skills p{
+	color: red;
 }
