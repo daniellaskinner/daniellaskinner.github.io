@@ -10,6 +10,11 @@ body{
 
 h2{
 	text-align: center;
+	color: rgb(64, 71, 71);
+}
+
+ul, a{
+	list-style: none;
 }
 
 nav>div{
@@ -17,22 +22,31 @@ nav>div{
 	margin: 0 auto;
 }
 
-ul, a{
-	list-style: none;
-}
-
 ul{
 	overflow: auto;
-	
-
-	/*position: -webkit-sticky;
-	position: sticky;*/
+	position: -webkit-sticky;
+	position: sticky;
 }
 
-a{
+li{
 	float: left;
 	width: 33%;
 	padding: 30px;
+	margin: 0 auto;
 	text-align: center;
+}
+
+a{
 	text-decoration: none;
+	color: rgb(53, 172, 181);
+}
+
+a:hover{
+	color: rgb(64, 71, 71, 0.5);
+	text-decoration: underline;
+}
+
+img{
+	width: 10%;
+	height: 10%;
 }
