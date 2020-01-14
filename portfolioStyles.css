@@ -20,6 +20,10 @@ h3{
 	padding: 2%;
 }
 
+ul{
+	padding: 0;
+}
+
 ul, a{
 	list-style: none;
 }
@@ -75,8 +79,8 @@ a:hover{
 }
 
 .container{
-	background-color: rgba(53, 172, 181,0.9);
-	height: 300px;
+	background-color: rgba(53, 172, 181,0.7);
+	height: 500px;
 	text-align: center;
 	overflow: auto;
 	width: 85%;
@@ -85,28 +89,39 @@ a:hover{
 
 .coding-icon{
 	width: 20%;
+	margin: 5px;
 }
 
 .skills{
 	width: 33.3%;
 	float: left;
+	padding: 15px;
 }
 
 .container p{
 	color: white;
 	font-weight: 700;
 	width: 100%;
-
 }
 
 
 /*make coding icons align vertically when screen size small*/
-@media screen and (max-width: 770px){
+@media screen and (max-width: 767px){
 	.skills{
-		width: 100%;
-		display: block;
+		width: 90%;
+		float: none;
+	}
+	
+	html{
+		font-size: 20px;
 	}
 }
+
+@media screen and (max-width: 375px) {
+	html {
+		font-size: 15px;
+	}
+
 
 /*@media screen and (max-width: 768px) {
 	html {
