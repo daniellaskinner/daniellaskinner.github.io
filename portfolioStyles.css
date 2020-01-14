@@ -32,6 +32,7 @@ nav>div{
 nav ul{
 	overflow: auto;
 	background-color: white;
+	display: fixed;
 }
 
 li{
@@ -61,6 +62,11 @@ a:hover{
 	margin-bottom: 5%;
 }
 
+.about p{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 .photo{
 	width: 10%;
 	height: 10%;
@@ -69,35 +75,36 @@ a:hover{
 }
 
 .container{
-	background-color: rgb(194, 194, 194);
-	height: 0%;
+	background-color: rgba(53, 172, 181,0.9);
+	height: 300px;
 	text-align: center;
 	overflow: auto;
-	width: 100%;
+	width: 85%;
 	margin: 0 auto;
 }
 
 .coding-icon{
-	width: 10%;
-	border: 1px solid black;
-	float: left;
+	width: 20%;
 }
 
 .skills{
-	width: 33%;
+	width: 33.3%;
+	float: left;
 }
 
 .container p{
-	color: red;
-	margin: 0 auto
-	padding: 0;
+	color: white;
+	font-weight: 700;
+	width: 100%;
+
 }
 
 
 /*make coding icons align vertically when screen size small*/
 @media screen and (max-width: 770px){
-	.coding-icon{
-		width: 10%;
+	.skills{
+		width: 100%;
+		display: block;
 	}
 }
 
