@@ -9,8 +9,9 @@ body{
 }
 
 h2{
-	text-align: center;
+	text-align: left;
 	color: rgb(64, 71, 71);
+	margin-left: 10%;
 }
 
 ul, a{
@@ -22,10 +23,9 @@ nav>div{
 	margin: 0 auto;
 }
 
-ul{
+nav ul{
 	overflow: auto;
-	position: -webkit-sticky;
-	position: sticky;
+	background-color: white;
 }
 
 li{
@@ -46,7 +46,22 @@ a:hover{
 	text-decoration: underline;
 }
 
-img{
+.about{
+	text-align: center;
+}
+
+
+.photo{
 	width: 10%;
 	height: 10%;
+	border-radius: 50%;
+}
+
+.about>div{
+	background-color: rgb(194, 194, 194);
+	height: 300px;
+}
+
+.coding-icon{
+	width: 10%;
 }
