@@ -106,8 +106,6 @@ a:hover{
 	width: 100%;
 }
 
-
-/*make coding icons align vertically when screen size small*/
 @media screen and (max-width: 767px){
 	.skills{
 		width: 90%;
@@ -115,69 +113,26 @@ a:hover{
 	}
 	
 	html{
-		font-size: 20px;
+		font-size: 15px;
 	}
 }
 
-@media screen and (max-width: 375px) {
-	html {
-		font-size: 15px;
-	}
+@media screen and (max-width: 860px) {
 	a{
 		font-size: 65%;
 	}
-}
-
-
-/*@media screen and (max-width: 768px) {
-	html {
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 17px;
+		width: 70%;
+	}
+	.about p{
 		font-size: 15px;
 	}
-
-	nav {
-		height: 46px;
-	}
-
-	nav img {
-		padding: 2px;
-	}
-
-	header {
-		height: 220px;
-		padding-top: 40px;
-	}
-
-	nav li {
-		padding: 10px 10px;
-	}
-}
-
-@media screen and (max-width: 375px) {
-	html {
-		font-size: 12px;
-	}
-
-	nav {
-		height: 40px;
-	}
-
-	header {
-		height: 200px;
-		padding-top: 40px;
-	}
-
-	nav li {
-		padding: 10px 3px;
-	}
-	.navContainerLogo {
+	
+	ul{
 		display: none;
 	}
-
-	header h2 {
-		padding-right: 20px;
-	}
-
-	header p {
-		padding: 3px 20px;
-	}
-}*/
+}
