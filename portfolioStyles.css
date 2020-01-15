@@ -116,17 +116,6 @@ nav img{
 	width: 100%;
 }
 
-@media screen and (max-width: 570px){
-	.skills{
-		width: 50%;
-		float: left;
-	}
-	
-	html{
-		font-size: 15px;
-	}
-}
-
 @media screen and (max-width: 860px) {
 	a{
 		font-size: 65%;
@@ -145,11 +134,37 @@ nav img{
 	ul{
 		display: none;
 	}
-	nav img{
+	.hamburger{
 		display: block;
+		float: right;
+		height: 70px;
+		width: 80px;
+		background-image: url(portfolioImages/hamburger_icon.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
 	}
 	.skills{
 		width: 33%;
 		float: left;
+	}
+}
+
+@media screen and (max-width: 570px){
+	.skills{
+		width: 50%;
+		float: left;
+	}
+	
+	html{
+		font-size: 15px;
+	}
+	.hamburger{
+		display: block;
+		float: right;
+		height: 57px;
+		width: 68px;
+		background-image: url(portfolioImages/hamburger_icon.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
 	}
 }
