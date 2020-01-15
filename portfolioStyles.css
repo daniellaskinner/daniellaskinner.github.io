@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	margin: 0 auto;
 }
 
 body{
@@ -9,23 +10,36 @@ body{
 }
 
 h2{
-	text-align: center;
+	float: left;
+	text-align: left;
 	color: rgb(64, 71, 71);
+	margin-left: 5%;
+	padding: 2%;
+}
+
+h3{
+	padding: 2%;
+}
+
+ul{
+	padding: 0;
 }
 
 ul, a{
 	list-style: none;
 }
 
-nav>div{
-	max-width: 900px;
-	margin: 0 auto;
+nav{
+	background-color: white;
+	border-bottom: 1px solid rgba(64, 71, 71, 0.5);
+	width: 100%;
+	position: fixed;
+	top: 0;
 }
 
-ul{
+nav ul{
 	overflow: auto;
-	position: -webkit-sticky;
-	position: sticky;
+	background-color: transparent;
 }
 
 li{
@@ -34,19 +48,123 @@ li{
 	padding: 30px;
 	margin: 0 auto;
 	text-align: center;
+
 }
 
 a{
 	text-decoration: none;
 	color: rgb(53, 172, 181);
+	font-size: 95%;
 }
 
 a:hover{
 	color: rgb(64, 71, 71, 0.5);
 	text-decoration: underline;
+	font-size: 105%;
+	transition: font-size 0.5s;
 }
 
-img{
+nav img{
+	float: right;
+	margin-left: 65%;
+	width: 130%;
+	display: none;
+}
+
+.about{
+	text-align: center;
+	height: 20%;
+	margin-top: 110px;
+	margin-bottom: 5%;
+}
+
+.about p{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.photo{
 	width: 10%;
 	height: 10%;
+	border-radius: 50%;
+	margin-bottom: 3%;
+}
+
+.container{
+	background-color: rgba(53, 172, 181,0.7);
+	height: 500px;
+	text-align: center;
+	overflow: auto;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.coding-icon{
+	width: 70%;
+	margin: 5px;
+}
+
+.skills{
+	width: 25%;
+	float: left;
+	padding: 15px;
+}
+
+.container p{
+	color: white;
+	font-weight: 700;
+	width: 100%;
+}
+
+@media screen and (max-width: 860px) {
+	a{
+		font-size: 65%;
+	}
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 17px;
+		width: 70%;
+	}
+	.about p{
+		font-size: 15px;
+	}
+	
+	ul{
+		display: none;
+	}
+	.hamburger{
+		display: block;
+		float: right;
+		height: 70px;
+		width: 80px;
+		background-image: url(portfolioImages/hamburger_icon.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.skills{
+		width: 33%;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 570px){
+	.skills{
+		width: 50%;
+		float: left;
+	}
+	
+	html{
+		font-size: 15px;
+	}
+	.hamburger{
+		display: block;
+		float: right;
+		height: 57px;
+		width: 68px;
+		background-image: url(portfolioImages/hamburger_icon.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 }
