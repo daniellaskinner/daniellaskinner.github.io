@@ -80,7 +80,7 @@ nav img{
 .about{
 	text-align: center;
 	height: 20%;
-	margin-top: 200px;
+	margin-top: 180px;
 	margin-bottom: 5%;
 	width: 85%;
 }
@@ -88,6 +88,12 @@ nav img{
 .about p{
 	margin-left: 5%;
 	margin-right: 5%;
+	padding: 1%;
+}
+
+.about span{
+	font-weight: 900;
+	color: rgb(53, 172, 181);
 }
 
 .photo{
