@@ -165,6 +165,16 @@ nav img{
 	border-radius: 12px;
 }
 
+.portfolio button:hover{
+	color: rgba(53, 172, 181);
+	font-size: 110%;
+	font-weight: 700;
+	background-color: white;
+	text-decoration: none;
+	border: 2px solid rgba(53, 172, 181);
+	border-radius: 12px;
+}
+
 @media screen and (max-width: 1340px) {
 	.portfolio{
 		border: 1px solid green;
