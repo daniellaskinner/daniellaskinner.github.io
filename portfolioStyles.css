@@ -10,6 +10,7 @@ body{
 }
 
 h2{
+	float: left;
 	text-align: left;
 	color: rgb(64, 71, 71);
 	margin-left: 5%;
@@ -29,10 +30,11 @@ ul, a{
 }
 
 nav{
-	max-width: 900px;
+	background-color: white;
+	border-bottom: 1px solid rgba(64, 71, 71, 0.5);
+	width: 100%;
 	position: fixed;
 	top: 0;
-	margin-left: 65%;
 }
 
 nav ul{
@@ -72,6 +74,7 @@ nav img{
 .about{
 	text-align: center;
 	height: 20%;
+	margin-top: 110px;
 	margin-bottom: 5%;
 }
 
