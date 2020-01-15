@@ -130,14 +130,14 @@ nav img{
 .portfolio-header{
 	width: 85%;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 5%;
 }
 
 .portfolio{
 	/*border: 1px solid peachpuff;*/
 	width: 85%;
 	height: 900px;
-	margin-top: 60px;
+	margin-top: 2%;
 	overflow: auto;
 	margin-bottom: 70px;
 	text-align: center;
