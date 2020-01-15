@@ -104,8 +104,8 @@ nav img{
 }
 
 .container{
-	background-color: rgba(53, 172, 181,0.7);
-	height: 500px;
+	background-color: rgb(53, 172, 181);
+	height: 400px;
 	text-align: center;
 	overflow: auto;
 	width: 85%;
@@ -155,6 +155,10 @@ nav img{
     padding: 2%;
 }
 
+.portfolio div:hover{
+	border-bottom: 2.5px solid rgb(53, 172, 181);
+}
+
 .portfolio img{
 	max-width: 100%;
 	max-height: 100%;
@@ -168,7 +172,7 @@ nav img{
 	color: white;
 	font-size: 110%;
 	font-weight: 700;
-	background-color: rgba(53, 172, 181);
+	background-color: rgb(53, 172, 181);
 	text-decoration: none;
 	border: 2px solid transparent;
 	border-radius: 12px;
@@ -182,8 +186,19 @@ nav img{
 	text-decoration: none;
 	border: 2px solid rgba(53, 172, 181);
 	border-radius: 12px;
+	cursor: pointer;
 }
 
+/*.contact{
+	color: white;
+	background-color: rgba(53, 172, 181);
+	text-align: center;
+	height: 350px;
+	width: 85%;
+	margin-bottom: 5%;
+}*/
+
+/*MEDIA QUERIES*/
 @media screen and (max-width: 1340px) {
 	.portfolio{
 		width: 85%;
@@ -211,6 +226,9 @@ nav img{
 		margin-top: 2%;
 		overflow: auto;
 		margin-bottom: 70px;
+	}
+	.contact{
+		height: 320px;
 	}
 }
 
@@ -259,6 +277,9 @@ nav img{
 	    height: 33%;
 	    float: left;
 	    padding: 2%;
+	}
+	.contact{
+		height: 270px;
 	}
 }
 
