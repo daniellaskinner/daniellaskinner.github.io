@@ -155,6 +155,16 @@ nav img{
 	max-height: 100%;
 }
 
+.portfolio button{
+	color: white;
+	font-size: 110%;
+	font-weight: 700;
+	background-color: rgba(53, 172, 181);
+	text-decoration: none;
+	border: 2px solid transparent;
+	border-radius: 12px;
+}
+
 @media screen and (max-width: 1340px) {
 	.portfolio{
 		border: 1px solid green;
