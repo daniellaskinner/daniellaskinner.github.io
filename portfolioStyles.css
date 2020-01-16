@@ -55,7 +55,6 @@ li{
 	padding: 30px;
 	margin: 0 auto;
 	text-align: center;
-
 }
 
 a{
@@ -196,6 +195,11 @@ nav img{
 	height: 350px;
 	width: 85%;
 	margin-bottom: 5%;
+}
+
+.copyright{
+	padding-top: 200px;
+	font-size: 15px;
 }*/
 
 /*MEDIA QUERIES*/
@@ -275,6 +279,9 @@ nav img{
 	.contact{
 		height: 270px;
 	}
+	.copyright{
+		padding-top: 160px;
+		}
 }
 
 @media screen and (max-width: 680px){
