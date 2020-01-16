@@ -47,6 +47,7 @@ nav{
 	border-bottom: 1px solid rgba(64, 71, 71, 0.5);
 	width: 100%;
 	position: fixed;
+	top: 0;
 }
 
 nav ul{
@@ -238,23 +239,13 @@ nav img{
 }
 @media screen and (max-width: 1340px) {
 	.portfolio{
-		height: 700px;
 		margin-top: 2%;
 	}
 	.copyright{
 		padding-top: 3%;
 	}
 }
-@media screen and (max-width: 1170px) {
-	.portfolio{
-		height: 620px;
-	}
-}
 @media screen and (max-width: 1000px) {
-	.portfolio{
-		height: 560px;
-		overflow: auto;
-	}
 	.contact{
 		height: 320px;
 	}
@@ -285,9 +276,6 @@ nav img{
 		width: 33%;
 		float: left;
 	}
-	.portfolio{
-		height: 1050px;
-	}
 	.portfolio div{
 	    width: 50%;
 	    height: 33%; 
@@ -297,9 +285,6 @@ nav img{
 	}
 }
 @media screen and (max-width: 680px){
-	.portfolio{
-		height: 3000px;
-	}
 	.portfolio div{
 	    width: 100%;
 	    height: 16.6%;
@@ -322,25 +307,14 @@ nav img{
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
-	.portfolio{
-		height: 3000px;
-	}
 	.portfolio div{
 	    width: 100%;
 	    height: 16.6%;
 	}
 }
-@media screen and (max-width: 500px){
-	.portfolio{
-		height: 2500px;
-	}
-}
 @media screen and (max-width: 375px){
 	.about{
 		margin-top: 70px;
-	}
-	.portfolio{
-		height: 2000px;
 	}
 	.portfolio div{
 	    width: 100%;
@@ -350,10 +324,6 @@ nav img{
 @media screen and (max-width: 320px){
 	.about{
 		margin-top: 70px;
-	}
-	.portfolio{
-		height: 1700px;
-		
 	}
 	.portfolio div{
 	    width: 100%;
