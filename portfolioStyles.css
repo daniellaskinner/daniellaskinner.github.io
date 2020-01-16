@@ -57,7 +57,7 @@ nav ul{
 	background-color: transparent;
 }
 
-li{
+nav li{
 	float: left;
 	width: 33%;
 	padding: 30px;
@@ -164,6 +164,8 @@ nav img{
 
 .portfolio div:hover{
 	border-bottom: 2.5px solid rgb(53, 172, 181);
+	transition: border-bottom 0.1s;
+	transition-delay: 0.1s;
 }
 
 .portfolio img{
@@ -207,7 +209,6 @@ nav img{
 
 .email{
 	padding: 20px;
-	/*margin: 15px;*/
 }
 
 .email p{
@@ -247,11 +248,8 @@ nav img{
 }
 @media screen and (max-width: 1340px) {
 	.portfolio{
-		width: 85%;
 		height: 700px;
 		margin-top: 2%;
-		overflow: auto;
-		margin-bottom: 70px;
 	}
 	.copyright{
 		padding-top: 3%;
@@ -259,18 +257,13 @@ nav img{
 }
 @media screen and (max-width: 1170px) {
 	.portfolio{
-		width: 85%;
 		height: 620px;
-		overflow: auto;
-		margin-bottom: 70px;
 	}
 }
 @media screen and (max-width: 1000px) {
 	.portfolio{
-		width: 85%;
 		height: 560px;
 		overflow: auto;
-		margin-bottom: 70px;
 	}
 	.contact{
 		height: 320px;
@@ -303,16 +296,11 @@ nav img{
 		float: left;
 	}
 	.portfolio{
-		width: 85%;
 		height: 1050px;
-		overflow: auto;
-		margin-bottom: 70px;
 	}
 	.portfolio div{
 	    width: 50%;
-	    height: 33%;
-	    float: left;
-	    padding: 2%;
+	    height: 33%; 
 	}
 	.contact{
 		height: 270px;
@@ -320,16 +308,11 @@ nav img{
 }
 @media screen and (max-width: 680px){
 	.portfolio{
-		width: 85%;
 		height: 3000px;
-		overflow: auto;
-		margin-bottom: 70px;
 	}
 	.portfolio div{
 	    width: 100%;
 	    height: 16.6%;
-	    float: left;
-	    padding: 2%;
 	}
 }	
 @media screen and (max-width: 570px){
@@ -350,24 +333,16 @@ nav img{
 		background-size: contain;
 	}
 	.portfolio{
-		width: 85%;
 		height: 3000px;
-		overflow: auto;
-		margin-bottom: 70px;
 	}
 	.portfolio div{
 	    width: 100%;
 	    height: 16.6%;
-	    float: left;
-	    padding: 2%;
 	}
 }
 @media screen and (max-width: 500px){
 	.portfolio{
-		width: 85%;
 		height: 2500px;
-		overflow: auto;
-		margin-bottom: 70px;
 	}
 }
 @media screen and (max-width: 375px){
@@ -375,16 +350,11 @@ nav img{
 		margin-top: 70px;
 	}
 	.portfolio{
-		width: 85%;
 		height: 2000px;
-		overflow: auto;
-		margin-bottom: 70px;
 	}
 	.portfolio div{
 	    width: 100%;
 	    height: 16.6%;
-	    float: left;
-	    padding: 2%;
 	}
 }
 @media screen and (max-width: 320px){
@@ -392,15 +362,11 @@ nav img{
 		margin-top: 70px;
 	}
 	.portfolio{
-		width: 85%;
 		height: 1700px;
-		overflow: auto;
-		margin-bottom: 70px;
+		
 	}
 	.portfolio div{
 	    width: 100%;
 	    height: 16.6%;
-	    float: left;
-	    padding: 2%;
 	}
 }
