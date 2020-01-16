@@ -188,7 +188,7 @@ nav img{
 	cursor: pointer;
 }
 
-/*.contact{
+.contact{
 	color: white;
 	background-color: rgb(53, 172, 181);
 	text-align: center;
@@ -200,7 +200,7 @@ nav img{
 .copyright{
 	padding-top: 200px;
 	font-size: 15px;
-}*/
+}
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1340px) {
