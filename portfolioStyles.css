@@ -65,7 +65,7 @@ a{
 }
 
 a:hover{
-	color: rgb(64, 71, 71, 0.5);
+	color: rgba(64, 71, 71, 0.5);
 	text-decoration: underline;
 	font-size: 105%;
 	transition: font-size 0.5s;
@@ -106,7 +106,7 @@ nav img{
 
 .container{
 	background-color: rgb(53, 172, 181);
-	height: 400px;
+	height: 420px;
 	text-align: center;
 	overflow: auto;
 	width: 85%;
@@ -137,13 +137,12 @@ nav img{
 .portfolio-header{
 	width: 85%;
 	text-align: center;
-	margin-top: 5%;
+	padding-top: 12%;
 }
 
 .portfolio{
 	width: 85%;
 	height: 900px;
-	padding-top: 12%;
 	overflow: auto;
 	margin-bottom: 70px;
 	text-align: center;
@@ -185,14 +184,14 @@ nav img{
 	font-weight: 700;
 	background-color: white;
 	text-decoration: none;
-	border: 2px solid rgba(53, 172, 181);
+	border: 2px solid rgb(53, 172, 181);
 	border-radius: 12px;
 	cursor: pointer;
 }
 
 /*.contact{
 	color: white;
-	background-color: rgba(53, 172, 181);
+	background-color: rgb(53, 172, 181);
 	text-align: center;
 	height: 350px;
 	width: 85%;
@@ -214,7 +213,6 @@ nav img{
 	.portfolio{
 		width: 85%;
 		height: 620px;
-		margin-top: 2%;
 		overflow: auto;
 		margin-bottom: 70px;
 	}
@@ -224,7 +222,6 @@ nav img{
 	.portfolio{
 		width: 85%;
 		height: 560px;
-		margin-top: 2%;
 		overflow: auto;
 		margin-bottom: 70px;
 	}
@@ -243,9 +240,6 @@ nav img{
 	h3{
 		font-size: 17px;
 		width: 70%;
-	}
-	.about{
-		margin-top: 100px;
 	}
 	.about p{
 		font-size: 15px;
@@ -269,7 +263,6 @@ nav img{
 	.portfolio{
 		width: 85%;
 		height: 1050px;
-		margin-top: 2%;
 		overflow: auto;
 		margin-bottom: 70px;
 	}
@@ -288,7 +281,6 @@ nav img{
 	.portfolio{
 		width: 85%;
 		height: 3000px;
-		margin-top: 2%;
 		overflow: auto;
 		margin-bottom: 70px;
 	}
@@ -321,7 +313,6 @@ nav img{
 	.portfolio{
 		width: 85%;
 		height: 3000px;
-		margin-top: 2%;
 		overflow: auto;
 		margin-bottom: 70px;
 	}
@@ -334,13 +325,9 @@ nav img{
 }
 
 @media screen and (max-width: 500px){
-	.about{
-		margin-top: 80px;
-	}
 	.portfolio{
 		width: 85%;
 		height: 2500px;
-		margin-top: 2%;
 		overflow: auto;
 		margin-bottom: 70px;
 	}
@@ -353,7 +340,6 @@ nav img{
 	.portfolio{
 		width: 85%;
 		height: 2000px;
-		margin-top: 2%;
 		overflow: auto;
 		margin-bottom: 70px;
 	}
@@ -372,7 +358,6 @@ nav img{
 	.portfolio{
 		width: 85%;
 		height: 1700px;
-		margin-top: 2%;
 		overflow: auto;
 		margin-bottom: 70px;
 	}
