@@ -1,45 +1,45 @@
-*{
+* {
 	box-sizing: border-box;
 		margin: 0 auto;
 }
 
-html{
+html {
 	scroll-behavior: smooth;
 }
 
-body{
+body {
 	font-family: Didot;
 	margin: 0;
 	font-size: 20px;
 }
 
-h2{
+h2 {
 	float: left;
 	margin-left: 5%;
 	padding: 2%;
 }
 
-h2 span{
+h2 span {
 	display: block;
 	margin-top: 2%;
 	font-size: 65%;
 	color: rgba(64, 71, 71, 0.7);
 }
 
-h3{
+h3 {
 	padding: 2%;
 	font-size: 170%;
 }
 
-ul{
+ul {
 	padding: 0;
 }
 
-ul, a{
+ul, a {
 	list-style: none;
 }
 
-nav{
+nav {
 	background-color: white;
 	border-bottom: 1px solid rgba(64, 71, 71, 0.5);
 	width: 100%;
@@ -47,123 +47,123 @@ nav{
 	top: 0;
 }
 
-nav ul{
+nav ul {
 	overflow: auto;
 	background-color: transparent;
 }
 
-nav li{
+nav li {
 	float: left;
 	width: 33%;
 	padding: 30px;
 	text-align: center;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: rgb(53, 172, 181);
 	font-size: 95%;
 }
 
-a:hover{
+a:hover {
 	color: rgba(64, 71, 71, 0.5);
 	text-decoration: underline;
 	font-size: 105%;
 	transition: font-size 0.5s;
 }
 
-nav img{
+nav img {
 	float: right;
 	margin-left: 65%;
 	width: 130%;
 	display: none;
 }
 
-.container{
+.container {
 	text-align: center;
 	width: 85%;
 	margin: 0 auto;
 }
-
-.about{
+ 
+.about {
 	padding-top: 125px;
 	margin-bottom: 5%;
 }
 
-.about p{
+.about p {
 	margin-left: 5%;
 	margin-right: 5%;
 	padding: 1%;
 }
 
-.about span{
+.about span {
 	font-weight: 900;
 	color: rgb(53, 172, 181);
 }
 
-.photo{
+.photo {
 	width: 18%;
 	height: 10%;
 	border-radius: 50%;
 	margin-bottom: 3%;
 }
 
-.tools{
+.tools {
 	background-color: rgb(53, 172, 181);
 	overflow: auto;
 	padding-bottom: 2%;
 }
 
-.tools h3{
+.tools h3 {
 	color: white;
 	font-size: 100%;
 }
 
-.coding-icon{
+.coding-icon {
 	width: 70%;
 	margin: 5px;
 }
 
-.skills{
+.skills {
 	width: 25%;
 	float: left;
 	padding: 15px;
 }
 
-.tools p{
+.tools p {
 	color: white;
 	font-weight: 700;
 	width: 100%;
 }
 
-.portfolio-header{
+.portfolio-header {
 	width: 85%;
 	text-align: center;
 	padding-top: 12%;
 }
 
-.portfolio{
+.portfolio {
 	overflow: auto;
 	margin-bottom: 70px;
 	text-align: center;
 }
 
-.portfolio div{
+.portfolio div {
     width: 33.3%;
     height: 50%;
     float: left;
     padding: 2%;
 }
 
-.portfolio img{
+.portfolio img {
 	max-width: 100%;
 }
 
-.portfolio p{
+.portfolio p {
 	margin: 5%;
 }
 
-.portfolio button{
+.portfolio button {
 	color: white;
 	font-size: 110%;
 	font-weight: 700;
@@ -173,7 +173,7 @@ nav img{
 	border-radius: 12px;
 }
 
-.portfolio button:hover{
+.portfolio button:hover {
 	color: rgba(53, 172, 181);
 	font-size: 110%;
 	font-weight: 700;
@@ -184,7 +184,7 @@ nav img{
 	cursor: pointer;
 }
 
-.contact{
+.contact {
 	color: white;
 	background-color: rgb(53, 172, 181);
 	text-align: center;
@@ -192,74 +192,74 @@ nav img{
 	margin-bottom: 5%;
 }
 
-.email{
+.email {
 	padding: 20px;
 }
 
-.email p{
+.email p {
 	display: inline-block;
 }
 
-.email p:hover{
+.email p:hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
 
-.social-buttons{
+.social-buttons {
 	width: 80%;
 	height: 20%;
 	margin-top: 2.5%;
 }
 
-.social-buttons ion-icon{
+.social-buttons ion-icon {
 	width: 20%;
 	height: 90%;
 	float: left;
 }
 
-.social-buttons ion-icon:hover{
+.social-buttons ion-icon:hover {
 	height: 110%;
 	cursor: pointer;
 }
 
-.copyright{
+.copyright {
 	padding-top: 6%;
 	font-size: 15px;
 }
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1950px) {
-	.copyright{
+	.copyright {
 		padding-top: 2%;
 	}
 }
 @media screen and (max-width: 1340px) {
-	.portfolio{
+	.portfolio {
 		margin-top: 2%;
 	}
-	.copyright{
+	.copyright {
 		padding-top: 3%;
 	}
 }
 @media screen and (max-width: 1000px) {
-	.contact{
+	.contact {
 		height: 320px;
 	}
 }
 @media screen and (max-width: 860px) {
-	a{
+	a {
 		font-size: 65%;
 	}
-	h2{
+	h2 {
 		font-size: 20px;
 	}
-	.about p{
+	.about p {
 		font-size: 15px;
 	}
-	ul{
+	ul {
 		display: none;
 	}
-	.hamburger{
+	.hamburger {
 		display: block;
 		float: right;
 		height: 70px;
@@ -268,33 +268,33 @@ nav img{
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
-	.skills{
+	.skills {
 		width: 33%;
 		float: left;
 	}
-	.portfolio div{
+	.portfolio div {
 	    width: 50%;
 	    height: 33%; 
 	}
-	.contact{
+	.contact {
 		height: 270px;
 	}
 }
-@media screen and (max-width: 680px){
-	.portfolio div{
+@media screen and (max-width: 680px) {
+	.portfolio div {
 	    width: 100%;
 	    height: 16.6%;
 	}
 }	
-@media screen and (max-width: 570px){
-	.skills{
+@media screen and (max-width: 570px) {
+	.skills {
 		width: 50%;
 		float: left;
 	}
-	html{
+	html {
 		font-size: 15px;
 	}
-	.hamburger{
+	.hamburger {
 		display: block;
 		float: right;
 		height: 57px;
@@ -303,25 +303,25 @@ nav img{
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
-	.portfolio div{
+	.portfolio div {
 	    width: 100%;
 	    height: 16.6%;
 	}
 }
-@media screen and (max-width: 375px){
-	.about{
+@media screen and (max-width: 375px) {
+	.about {
 		margin-top: 70px;
 	}
-	.portfolio div{
+	.portfolio div {
 	    width: 100%;
 	    height: 16.6%;
 	}
 }
-@media screen and (max-width: 320px){
-	.about{
+@media screen and (max-width: 320px) {
+	.about {
 		margin-top: 70px;
 	}
-	.portfolio div{
+	.portfolio div {
 	    width: 100%;
 	    height: 16.6%;
 	}
