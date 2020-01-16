@@ -3,6 +3,10 @@
 	margin: 0 auto;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body{
 	font-family: Didot;
 	margin: 0;
@@ -25,7 +29,11 @@ h2 p{
 
 h3{
 	padding: 2%;
-	font-size: 120%;
+	font-size: 170%;
+}
+
+.container h3{
+	font-size: 100%;
 }
 
 ul{
@@ -105,11 +113,11 @@ nav img{
 
 .container{
 	background-color: rgb(53, 172, 181);
-	height: 420px;
 	text-align: center;
 	overflow: auto;
 	width: 85%;
 	margin: 0 auto;
+	padding-bottom: 2%;
 }
 
 .container h3{
@@ -197,12 +205,46 @@ nav img{
 	margin-bottom: 5%;
 }
 
+.email{
+	padding: 20px;
+	/*margin: 15px;*/
+}
+
+.email p{
+	display: inline-block;
+}
+
+.email p:hover{
+	text-decoration: underline;
+}
+
+.social-buttons{
+	width: 80%;
+	height: 20%;
+	margin-top: 2.5%;
+}
+
+.social-buttons ion-icon{
+	width: 20%;
+	height: 90%;
+	float: left;
+}
+
+.social-buttons ion-icon:hover{
+	height: 110%;
+}
+
 .copyright{
-	padding-top: 200px;
+	padding-top: 6%;
 	font-size: 15px;
 }
 
 /*MEDIA QUERIES*/
+@media screen and (max-width: 1950px) {
+	.copyright{
+		padding-top: 2%;
+	}
+}
 @media screen and (max-width: 1340px) {
 	.portfolio{
 		width: 85%;
@@ -211,8 +253,10 @@ nav img{
 		overflow: auto;
 		margin-bottom: 70px;
 	}
+	.copyright{
+		padding-top: 3%;
+	}
 }
-
 @media screen and (max-width: 1170px) {
 	.portfolio{
 		width: 85%;
@@ -221,7 +265,6 @@ nav img{
 		margin-bottom: 70px;
 	}
 }
-
 @media screen and (max-width: 1000px) {
 	.portfolio{
 		width: 85%;
@@ -233,17 +276,12 @@ nav img{
 		height: 320px;
 	}
 }
-
 @media screen and (max-width: 860px) {
 	a{
 		font-size: 65%;
 	}
 	h2{
 		font-size: 20px;
-	}
-	h3{
-		font-size: 17px;
-		width: 70%;
 	}
 	.about p{
 		font-size: 15px;
@@ -279,11 +317,7 @@ nav img{
 	.contact{
 		height: 270px;
 	}
-	.copyright{
-		padding-top: 160px;
-		}
 }
-
 @media screen and (max-width: 680px){
 	.portfolio{
 		width: 85%;
@@ -297,14 +331,12 @@ nav img{
 	    float: left;
 	    padding: 2%;
 	}
-}
-	
+}	
 @media screen and (max-width: 570px){
 	.skills{
 		width: 50%;
 		float: left;
 	}
-	
 	html{
 		font-size: 15px;
 	}
@@ -330,7 +362,6 @@ nav img{
 	    padding: 2%;
 	}
 }
-
 @media screen and (max-width: 500px){
 	.portfolio{
 		width: 85%;
@@ -339,7 +370,6 @@ nav img{
 		margin-bottom: 70px;
 	}
 }
-
 @media screen and (max-width: 375px){
 	.about{
 		margin-top: 70px;
@@ -357,7 +387,6 @@ nav img{
 	    padding: 2%;
 	}
 }
-
 @media screen and (max-width: 320px){
 	.about{
 		margin-top: 70px;
