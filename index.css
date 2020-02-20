@@ -197,6 +197,10 @@ nav img {
 	padding: 20px;
 }
 
+.email ion-icon {
+	font-size: 30px;
+}
+
 .email p {
 	display: inline-block;
 }
@@ -212,19 +216,23 @@ nav img {
 	margin-top: 2.5%;
 }
 
-.social-buttons ion-icon {
+.social-buttons div {
 	width: 20%;
-	height: 90%;
+	height: 100%;
 	float: left;
 }
 
+.social-buttons ion-icon {
+	font-size: 70px;
+}
+
 .social-buttons ion-icon:hover {
-	height: 110%;
+	font-size: 85px;
 	cursor: pointer;
 }
 
 .copyright {
-	padding-top: 6%;
+	margin-top: 10px;
 	font-size: 15px;
 }
 
@@ -233,7 +241,11 @@ nav img {
 	.copyright {
 		padding-top: 2%;
 	}
+	.contact {
+		height: 400px;
+	}
 }
+
 @media screen and (max-width: 1340px) {
 	.portfolio {
 		margin-top: 2%;
@@ -278,7 +290,7 @@ nav img {
 	    height: 33%; 
 	}
 	.contact {
-		height: 270px;
+		height: 320px;
 	}
 }
 @media screen and (max-width: 680px) {
@@ -307,6 +319,14 @@ nav img {
 	.portfolio div {
 	    width: 100%;
 	    height: 16.6%;
+	}
+	.social-buttons ion-icon {
+		font-size: 60px;
+	}
+
+	.social-buttons ion-icon:hover {
+		font-size: 70px;
+		cursor: pointer;
 	}
 }
 @media screen and (max-width: 375px) {
