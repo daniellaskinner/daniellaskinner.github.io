@@ -186,6 +186,10 @@ nav img {
 	cursor: pointer;
 }
 
+.portfolio button:focus {
+	outline: 0;
+}
+
 .contact {
 	color: white;
 	background-color: rgb(53, 172, 181);
