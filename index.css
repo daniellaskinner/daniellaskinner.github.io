@@ -148,16 +148,17 @@ nav img {
 }
 
 .portfolio div {
-    width: 30%;
+    width: 33%;
+	height:455px;
     float: left;
     padding: 15px;
 }
 
 .portfolio img {
 	max-width: 100%;
-	-webkit-box-shadow: 9px 9px 15px 2px rgba(52,172,181,0.4);
-	-moz-box-shadow: 9px 9px 15px 2px rgba(52,172,181,0.4);
-	box-shadow: 9px 9px 15px 2px rgba(52,172,181,0.4);
+	/*-webkit-box-shadow: 9px 9px 15px 2px rgba(52,172,181,0.4);*/
+	/*-moz-box-shadow: 9px 9px 15px 2px rgba(52,172,181,0.4);*/
+	/*box-shadow: 9px 9px 15px 2px rgba(52,172,181,0.4);*/
 }
 
 .portfolio p {
