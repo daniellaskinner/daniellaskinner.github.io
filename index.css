@@ -59,13 +59,13 @@ nav li {
 	text-align: center;
 }
 
-a {
+nav a {
 	text-decoration: none;
 	color: rgb(53, 172, 181);
 	font-size: 95%;
 }
 
-a:hover {
+nav a:hover {
 	color: rgba(64, 71, 71, 0.5);
 	text-decoration: underline;
 	font-size: 105%;
@@ -222,9 +222,13 @@ nav img {
 }
 
 .social-buttons div {
-	width: 20%;
+	width: 33%;
 	height: 100%;
 	float: left;
+}
+
+.social-buttons a {
+	color: rgb(255, 255, 255);
 }
 
 .social-buttons ion-icon {
