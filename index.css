@@ -8,9 +8,9 @@ html {
 }
 
 body {
-	font-family: Didot;
+	font-family: 'Roboto Mono', monospace;
 	margin: 0;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 h2 {
@@ -163,7 +163,7 @@ nav img {
 
 .portfolio p {
 	margin: 2%;
-	font-size: 80%;
+	font-size: 95%;
 }
 
 .portfolio button {
