@@ -148,26 +148,26 @@ nav img {
 }
 
 .portfolio div {
-    width: 33%;
+    width: 30%;
 	height:455px;
     float: left;
-    padding: 15px;
+    padding: 1.5%;
+	margin: 1.5%;
+	border: 3px solid rgba(53, 172, 181, 0.3);
+	border-radius: 15px;
 }
 
 .portfolio img {
 	max-width: 100%;
-	/*-webkit-box-shadow: 9px 9px 15px 2px rgba(52,172,181,0.4);*/
-	/*-moz-box-shadow: 9px 9px 15px 2px rgba(52,172,181,0.4);*/
-	/*box-shadow: 9px 9px 15px 2px rgba(52,172,181,0.4);*/
 }
 
 .portfolio p {
-	margin: 5%;
+	margin: 2%;
+	font-size: 80%;
 }
 
 .portfolio button {
 	color: white;
-	font-size: 110%;
 	font-weight: 700;
 	background-color: rgb(53, 172, 181);
 	text-decoration: none;
