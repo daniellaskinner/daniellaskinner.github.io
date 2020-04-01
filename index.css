@@ -269,9 +269,6 @@ nav img {
 	}
 }
 @media screen and (max-width: 860px) {
-	a {
-		font-size: 65%;
-	}
 	h2 {
 		font-size: 20px;
 	}
