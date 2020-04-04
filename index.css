@@ -10,7 +10,7 @@ html {
 body {
 	font-family: 'Sen', sans-serif;
 	margin: 0;
-	font-size: 18px;
+	font-size: 19px;
 }
 
 h2 {
@@ -164,6 +164,7 @@ nav img {
 
 .portfolio p {
 	margin: 2%;
+	margin-top: 5%;
 	font-size: 95%;
 }
 
@@ -268,6 +269,9 @@ nav img {
 	.copyright {
 		padding-top: 3%;
 	}
+	.portfolio div {
+		width: 47%;
+	}
 }
 @media screen and (max-width: 1000px) {
 	.contact {
@@ -297,20 +301,19 @@ nav img {
 		width: 33%;
 		float: left;
 	}
-	.portfolio div {
-	    width: 47%;
-	    height: 33%;
+	.portfolio button:hover {
+		font-size: 100%;
 	}
 	.contact {
 		height: 320px;
 	}
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
 	.portfolio div {
 	    width: 98%;
 	}
-	.portfolio button:hover {
-		font-size: 100%;
+	.image-reduce {
+		width: 80%;
 	}
 }
 @media screen and (max-width: 570px) {
