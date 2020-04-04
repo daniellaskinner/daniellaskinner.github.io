@@ -113,8 +113,8 @@ nav img {
 }
 
 .tools {
-	overflow: auto;
-	padding-bottom: 2%;
+	overflow: hidden;
+	padding-bottom: 5%;
 }
 
 .tools h3 {
@@ -131,6 +131,11 @@ nav img {
 	width: 25%;
 	float: left;
 	padding: 15px;
+	transition: transform .2s;
+}
+
+.skills:hover {
+	transform: scale(1.5);
 }
 
 .tools p {
@@ -271,6 +276,9 @@ nav img {
 	}
 	.portfolio div {
 		width: 47%;
+	}
+	.image-reduce {
+		width: 85%;
 	}
 }
 @media screen and (max-width: 1000px) {
