@@ -13,6 +13,10 @@ body {
 	font-size: 19px;
 }
 
+.text-header {
+	font-size: 400%;
+}
+
 h2 {
 	float: left;
 	margin-left: 5%;
@@ -41,7 +45,6 @@ ul, a {
 
 nav {
 	background-color: white;
-	border-bottom: 1px solid rgba(64, 71, 71, 0.5);
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -265,6 +268,9 @@ nav img {
 	.contact {
 		height: 400px;
 	}
+	nav li {
+		font-size: 140%;
+	}
 }
 
 @media screen and (max-width: 1340px) {
@@ -293,21 +299,12 @@ nav img {
 	.about p {
 		font-size: 15px;
 	}
-	ul {
-		display: none;
-	}
-	.hamburger {
-		display: block;
-		float: right;
-		height: 70px;
-		width: 80px;
-		background-image: url(portfolioImages/hamburger-icon.svg);
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
 	.skills {
 		width: 33%;
 		float: left;
+	}
+	nav li {
+		font-size: 90%;
 	}
 	.portfolio button:hover {
 		font-size: 100%;
@@ -332,14 +329,8 @@ nav img {
 	html {
 		font-size: 15px;
 	}
-	.hamburger {
-		display: block;
-		float: right;
-		height: 57px;
-		width: 68px;
-		background-image: url(portfolioImages/hamburger-icon.svg);
-		background-repeat: no-repeat;
-		background-size: contain;
+	nav li {
+		font-size: 70%;
 	}
 	.contact {
 		font-size: 90%;
