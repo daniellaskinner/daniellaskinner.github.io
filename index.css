@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-		margin: 0 auto;
+	margin: 0 auto;
 }
 
 html {
@@ -8,7 +8,7 @@ html {
 }
 
 body {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sen', sans-serif;
 	margin: 0;
 	font-size: 18px;
 }
@@ -101,6 +101,10 @@ nav img {
 	color: rgb(53, 172, 181);
 }
 
+.about a {
+	text-decoration: none;
+}
+
 .photo {
 	width: 18%;
 	height: 10%;
@@ -109,14 +113,13 @@ nav img {
 }
 
 .tools {
-	background-color: rgb(53, 172, 181);
 	overflow: auto;
 	padding-bottom: 2%;
 }
 
 .tools h3 {
-	color: white;
-	font-size: 100%;
+	margin-top: 15px;
+	font-size: 125%;
 }
 
 .coding-icon {
@@ -138,18 +141,16 @@ nav img {
 
 .portfolio-header {
 	width: 85%;
-	padding-top: 12%;
 }
 
 .portfolio {
 	overflow: auto;
 	margin-bottom: 70px;
-	text-align: center;
 }
 
 .portfolio div {
     width: 30%;
-	height:455px;
+	height: 480px;
     float: left;
     padding: 1.5%;
 	margin: 1.5%;
@@ -233,11 +234,16 @@ nav img {
 
 .social-buttons ion-icon {
 	font-size: 70px;
+	overflow: hidden;
+	transition-duration: 0.3s;
+	transition-property: transform;
 }
 
 .social-buttons ion-icon:hover {
 	font-size: 85px;
 	cursor: pointer;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
 }
 
 .copyright {
@@ -292,8 +298,8 @@ nav img {
 		float: left;
 	}
 	.portfolio div {
-	    width: 50%;
-	    height: 33%; 
+	    width: 47%;
+	    height: 33%;
 	}
 	.contact {
 		height: 320px;
@@ -301,10 +307,12 @@ nav img {
 }
 @media screen and (max-width: 680px) {
 	.portfolio div {
-	    width: 100%;
-	    height: 16.6%;
+	    width: 98%;
 	}
-}	
+	.portfolio button:hover {
+		font-size: 100%;
+	}
+}
 @media screen and (max-width: 570px) {
 	.skills {
 		width: 50%;
@@ -322,14 +330,12 @@ nav img {
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
-	.portfolio div {
-	    width: 100%;
-	    height: 16.6%;
+	.contact {
+		font-size: 90%;
 	}
 	.social-buttons ion-icon {
 		font-size: 60px;
 	}
-
 	.social-buttons ion-icon:hover {
 		font-size: 70px;
 		cursor: pointer;
@@ -339,17 +345,9 @@ nav img {
 	.about {
 		margin-top: 70px;
 	}
-	.portfolio div {
-	    width: 100%;
-	    height: 16.6%;
-	}
 }
 @media screen and (max-width: 320px) {
 	.about {
 		margin-top: 70px;
-	}
-	.portfolio div {
-	    width: 100%;
-	    height: 16.6%;
 	}
 }
