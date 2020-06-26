@@ -17,6 +17,12 @@ body {
 	font-size: 400%;
 }
 
+.title {
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
 h2 {
 	float: left;
 	margin-left: 5%;
@@ -115,6 +121,11 @@ nav img {
 	margin-bottom: 3%;
 }
 
+.blogs {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
 .tools {
 	overflow: hidden;
 	padding-bottom: 5%;
@@ -142,7 +153,6 @@ nav img {
 }
 
 .tools p {
-	color: white;
 	font-weight: 700;
 	width: 100%;
 }
